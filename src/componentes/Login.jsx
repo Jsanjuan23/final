@@ -35,7 +35,7 @@ const Login = () => {
           if(!cc.trim() || !pass.trim()){
               swal({
                 title: "Error",
-                text: "No puede dejaaar ningún campo vacio.",
+                text: "No puede dejar ningún campo vacio.",
                 icon: "error",
                 button: "Aceptar"
               })

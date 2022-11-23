@@ -33,7 +33,7 @@ const Principal = () => {
             <h4><strong style={{color:"white"}}>Medical Analysis</strong></h4>
                
                 <button class="navbar-toggler text-uppercase bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" onClick={validari}>
-                <i class='fas fa-sign-in-alt' style={{fontSize:"24px"}} alt="Iniciar Sesión"></i>
+                 Ingresar
                 </button>
             </div>
         </nav>

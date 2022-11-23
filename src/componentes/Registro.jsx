@@ -68,7 +68,7 @@ const Registro = () => {
   
       swal({
         title: "Correcto",
-        text: "Su clave para ingresar al sistemas es : "+pass,
+        text: "Su clave para ingresar al sistemas es : "+pass+" y su usuario es : "+cc,
         icon: "success",
         button: "Aceptar"
       })
