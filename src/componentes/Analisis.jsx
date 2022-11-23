@@ -7,7 +7,6 @@ const Analisis = () => {
   const [estado, setEstado] = React.useState(true)
   const [est_imc, setEst_imc] = React.useState(false)
   const [est_leu, setEst_leu] = React.useState(true)
-  const [est_otro, setEst_otro] = React.useState(false)
   const [op, setOp] = React.useState(1)
   const [leu, setLeu] = React.useState("")
   const [peso, setPeso] = React.useState("")
@@ -23,7 +22,6 @@ const Analisis = () => {
    const hab_imc = ()=>{
 	setOp(2)
 	setEst_imc(true)
-	setEst_otro(false)
 	setEst_leu(false)
 	setLeu("")
 	setPeso("")
@@ -36,7 +34,6 @@ const Analisis = () => {
    const hab_leu = ()=>{
 	setOp(1)
     setEst_imc(false)
-	setEst_otro(false)
 	setEst_leu(true)
 	setLeu("")
 	setPeso("")
@@ -49,7 +46,6 @@ const Analisis = () => {
    const hab_otro = ()=>{
 	setOp(3)
 	setEst_imc(false)
-	setEst_otro(true)
 	setEst_leu(false)
 	setLeu("")
 	setPeso("")
