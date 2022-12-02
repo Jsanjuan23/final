@@ -50,14 +50,14 @@ const Analisis = () => {
 	  console.log(codingRegex)
 	  let infeccion = texto_extraido.match(codingRegex); 
 	  console.log(infeccion)
-	  let codingRegex2 = /\d{1,15}/gi;
+	  let codingRegex2 = /\d{1,2}/gi;
 	  console.log(codingRegex2)
 	  if (infeccion[0] == null || infeccion[0] === undefined){
 		setValor("Examen medico no cuenta la patologia Leucocitos")
 	  }else{
 		let valortemp = infeccion[0].match(codingRegex2);
-		setValor(Number(valortemp[0]))
-        console.log(valor)
+		valortemp = parseInt(valortemp[0]);
+		setValor(valortemp)
 		if (parseInt(valor)>30){
 			setText("Usted tiene una infección")
 	  
