@@ -1,9 +1,8 @@
 import React from 'react'
 import logo from '../medicina.jpg'
 import Login from './Login'
-import swal from 'sweetalert'
 
-import { useState, useRef } from 'react';
+import { useState} from 'react';
 import Tesseract from 'tesseract.js';
 
 const Analisis = () => {
