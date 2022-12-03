@@ -26,6 +26,7 @@ const Login = () => {
               ))
               setLista(arraydata)
             } catch (error) {
+              
               console.log(error)        
             }
           }
